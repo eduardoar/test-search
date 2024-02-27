@@ -1,4 +1,11 @@
 
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¤‹ÆŸýÿÿÿÿ8Â‡¨™Þ1
-G	java:S106*"+Replace this use of System.err by a logger.(Î¥€ë8Ç‡¨™Þ1
-L	java:S106?"+Replace this use of System.err by a logger.(ðØˆÛýÿÿÿÿ8É‡¨™Þ1
+o	java:S116 "SRename this field "BASE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°†Îš8§±ßÌÞ1
+q	java:S116""URename this field "USER_AGENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó«¬ð8§±ßÌÞ1
+>
+java:S1170""!Make this final field static too.(Ó«¬ð8§±ßÌÞ1
+G	java:S106."+Replace this use of System.err by a logger.(Î¥€ë8¬±ßÌÞ1
+‰
+java:S1130A"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(º™½÷8®±ßÌÞ1
+L	java:S106C"+Replace this use of System.err by a logger.(ðØˆÛýÿÿÿÿ8®±ßÌÞ1
+L	java:S106R"+Replace this use of System.err by a logger.(½íÖÊüÿÿÿÿ8³±ßÌÞ1
+G	java:S106u"+Replace this use of System.err by a logger.(æ¼Þð8ùªåÌÞ1

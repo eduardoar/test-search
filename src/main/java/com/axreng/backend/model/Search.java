@@ -2,19 +2,18 @@ package com.axreng.backend.model;
 
 import com.axreng.backend.enums.Status;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.LinkedList;
 
 public class Search {
 
     private String id;
     private String status;
-    private Set<String> urls;
+    private LinkedList<String> urls;
 
     public Search(String id) {
         this.id = id;
         this.status = Status.active.toString();
-        this.urls = new HashSet<>();
+        this.urls = new LinkedList<>();
     }
 
     public String getStatus() {
@@ -25,11 +24,11 @@ public class Search {
         this.status = status;
     }
 
-    public Set<String> getUrls() {
+    public LinkedList<String> getUrls() {
         return urls;
     }
 
-    public void setUrls(Set<String> urls) {
+    public void setUrls(LinkedList<String> urls) {
         this.urls = urls;
     }
 }

@@ -34,3 +34,11 @@ b
 2src/main/java/com/axreng/backend/enums/Status.java,d\8\d83117341dfe7d928bc952ce8b4b5cbf207a58b0
 b
 2src/main/java/com/axreng/backend/model/Search.java,7\3\73a42e5d781855b66356043fb9ba5df0796b6bda
+v
+Fsrc/main/java/com/axreng/backend/model/response/GetSearchResponse.java,3\6\361078d0bc3854c50786592c27b05af3eaa546a6
+q
+Asrc/main/java/com/axreng/backend/model/request/SearchRequest.java,2\0\203d9cc6850c57e32dc485d24ace2c01b2bd977f
+s
+Csrc/main/java/com/axreng/backend/model/response/SearchResponse.java,6\5\6537f2143537be1b6e821984658c9bc5351ea7ec
+r
+Bsrc/main/java/com/axreng/backend/model/response/ErrorResponse.java,c\3\c3f2a458511dc239ef6826bc9ef81c599daa4770

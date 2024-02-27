@@ -1,18 +1,18 @@
 package com.axreng.backend.model.response;
 
-import java.util.Set;
+import java.util.LinkedList;
 
 public class GetSearchResponse {
 
     private String id;
     private String status;
-    private Set<String> urls;
+    private LinkedList<String> urls;
 
     public GetSearchResponse(String id) {
         this.id = id;
     }
 
-    public GetSearchResponse(String id, String status, Set<String> urls) {
+    public GetSearchResponse(String id, String status, LinkedList<String> urls) {
         this.id = id;
         this.status = status;
         this.urls = urls;
@@ -26,7 +26,7 @@ public class GetSearchResponse {
         return status;
     }
 
-    public Set<String> getUrls() {
+    public LinkedList<String> getUrls() {
         return urls;
     }
 }
